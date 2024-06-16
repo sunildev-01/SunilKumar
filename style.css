@@ -197,11 +197,6 @@ button:nth-child(2):hover {
         font-size: 2.5rem;
     }
 
-    /* .icons {
-        flex-direction: row;
-        gap: 2rem;
-    } */
-
     .icons {
         display: flex;
         flex-direction: column;
