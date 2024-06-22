@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-height: calc(100vh - 40px);
+            padding: 40px;
+            background-color: #1d1d1d;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 80%;
+            max-height: calc(100vh - 40px);
+            background-color: #1d1d1d;
+            padding: 40px;
+            
+        }
+        .card {
+            background-color: #c6c6c6;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: start;
+            transition: background-color 0.5s, color 0.5s;
+            overflow-y: auto;
+        }
+        .card:hover {
+            border: 1px solid #3DDC84;
+            background-color: #000000;
+            color: #c6c6c6;
+        }
+        .card-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .card-description {
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            <div class="card-title">ShoppingKart</div>
+            <div class="card-description">ShoppingKart is a demo shopping app, built to demonstrate the use of modern development tools and best practices.</div>
+            <div class="card-features">
+                <strong>Features</strong>
+                <ul>
+                    <li>Browse products</li>
+                    <li>Add to kart</li>
+                    <li>Place order</li>
+                </ul>
+            </div>
+            <div class="card-skills">
+                <strong>Skills used</strong>
+                <ul>
+                    <li>Android architecture components</li>
+                    <li>Jetpack Compose</li>
+                    <li>Clean architecture with MVVM</li>
+                    <li>Hilt</li>
+                    <li>Coil</li>
+                    <li>Flow</li>
+                    <li>Coroutines</li>
+                    <li>Retrofit</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-title">GroupChatApp</div>
+            <div class="card-description">People can create account and chat in a public group</div>
+            <div class="card-features">
+                <strong>Features</strong>
+                <ul>
+                    <li>Public Group chat</li>
+                    <li>User registration</li>
+                    <li>User profile</li>
+                </ul>
+            </div>
+            <div class="card-skills">
+                <strong>Skills used</strong>
+                <ul>
+                    <li>MVVM</li>
+                    <li>Architecture components</li>
+                    <li>Room database</li>
+                    <li>Node.js</li>
+                    <li>Socketio</li>
+                    <li>Firebase auth</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-title">Walley</div>
+            <div class="card-description">Walley is a wallpapers app. Users can browse images.</div>
+            <div class="card-features">
+                <strong>Features</strong>
+                <ul>
+                    <li>Browse images</li>
+                    <li>Download to local storage</li>
+                    <li>Set as device wallpapers</li>
+                </ul>
+            </div>
+            <div class="card-skills">
+                <strong>Skills used</strong>
+                <ul>
+                    <li>Clean architecture with MVVM</li>
+                    <li>Jetpack Compose</li>
+                    <li>Dagger 2</li>
+                    <li>architecture components</li>
+                    <li>Retrofit</li>
+                    <li>Glide</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
